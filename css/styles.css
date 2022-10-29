@@ -137,6 +137,11 @@ body {
   color: var(--secondary-color);
 }
 
+.header-icon-link:hover,
+.header-icon-link:focus {
+  color: var(--accent-color);
+}
+
 .header-icon {
   fill: currentColor;
 }
@@ -355,14 +360,18 @@ body {
 
 .socials-link {
   padding: 12px;
-  fill: #afb1b8;
+  color: #afb1b8;
 }
 
 .socials-link:hover,
 .socials-link:focus {
-  fill: #fff;
+  color: #fff;
   background-color: #2196f3;
   border-radius: 50%;
+}
+
+.socials-icon {
+  fill: currentColor;
 }
 
 /* Clients */
