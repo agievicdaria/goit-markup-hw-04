@@ -123,33 +123,18 @@ body {
 }
 
 .auth-item:not(:last-child) {
-  margin-right: 50px;
-}
-
-.item-email,
-.item-phone {
-  display: flex;
-  align-items: baseline;
+  margin-right: 30px;
 }
 
 .header-icon-link {
   margin-right: 10px;
-  color: var(--secondary-color);
-}
-
-.header-icon-link:hover,
-.header-icon-link:focus {
-  color: var(--accent-color);
-}
-
-.header-icon {
-  fill: currentColor;
-}
-
-.auth-link {
-  display: block;
   padding-top: 32px;
   padding-bottom: 32px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 
   color: var(--secondary-color);
   font-weight: 500;
@@ -159,9 +144,13 @@ body {
   text-decoration: none;
 }
 
-.auth-link:hover,
-.auth-link:focus {
+.header-icon-link:hover,
+.header-icon-link:focus {
   color: var(--accent-color);
+}
+
+.header-icon {
+  fill: currentColor;
 }
 
 /* Hero */
@@ -346,20 +335,19 @@ body {
   padding-bottom: 30px;
 }
 
-.socials-item {
-  width: 44px;
-  height: 44px;
-  display: flex;
-  /* justify-content: center;
-  align-items: center; */
-}
-
 .socials-item:not(:last-child) {
   margin-right: 10px;
 }
 
 .socials-link {
-  padding: 12px;
+  /* padding: 12px; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+
   color: #afb1b8;
 }
 
